@@ -19,7 +19,7 @@
                 array[i] = int[n];
                 for (int j = 0; j < n; j++)
                 {
-                    array[i][j] = random.Next(77.777);
+                    array[i][j] = random.Next(0.20);
                     Console.Writeline($"{array[i][j]}"); 
                 }
             }
@@ -32,10 +32,7 @@
                     {
                         arr = arr + array[i][j];
                     }
-                    else
-                    {
-                        Console.Writeline(" K in m is not founded !!!");
-                    }
+                    
                 }
             }
             Console.WriteLine($"{arr}");
